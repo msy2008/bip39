@@ -2443,6 +2443,17 @@ it('Allows selection of Particl', function(done) {
     testNetwork(done, params);
 });
 
+it('Allows selection of Infinitecoin', function(done) {
+    var params = {
+        selectText: "IFC - Infinitecoin",
+        phrase: "abandon abandon ability",
+        firstAddress: "iDN4wNQyoYEutnpSkLRzuZTaYXuxacGLgt",
+        firstPubKey: "0320572ef95776da2e2dc842998e0e996715a6fdee0393e4ac3e997ab448cff2e9",
+        firstPrivKey: "b3xTcsxxxkTWv75LDP2kT8438afGPRmgofMwMdqmbnrpcbfSa4Sc",
+    };
+    testNetwork(done, params);
+});
+
 // BIP39 seed is set from phrase
 it('Sets the bip39 seed from the prhase', function(done) {
     driver.findElement(By.css('.phrase'))

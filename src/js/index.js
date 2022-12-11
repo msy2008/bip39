@@ -2955,6 +2955,13 @@
                 setHdCoin(86);
             },
         },
+		{
+            name: "IFC - Infinitecoin",
+            onSelect: function() {
+                network = libs.bitcoin.networks.infinitecoin;
+                setHdCoin(3);
+            },
+        },
         {
             name: "JBS - Jumbucks",
             onSelect: function() {
