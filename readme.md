@@ -2,14 +2,10 @@
 
 A tool for converting BIP39 mnemonic phrases to addresses and private keys.
 
-## Online Version
-
-https://iancoleman.io/bip39/
-
 ## Standalone offline version
 
-Download `bip39-standalone.html` from
-[the releases](https://github.com/iancoleman/bip39/releases).
+Download `bip39-standalone.html` with Infinitecoin network added from
+[the releases](https://github.com/msy2008/bip39/releases).
 
 Open the file in a browser by double clicking it.
 
