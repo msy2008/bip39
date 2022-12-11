@@ -1,3 +1,7 @@
+# 0.5.5
+
+* Add Infinitecoin network
+
 # 0.5.4
 
 * Add Particl network
